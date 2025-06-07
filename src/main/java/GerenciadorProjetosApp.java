@@ -17,7 +17,7 @@ public class GerenciadorProjetosApp extends JFrame {
 
     public GerenciadorProjetosApp(){
         setTitle("Gerenciador de Projetos");
-        setSize(800, 600);
+        this.setExtendedState(JFrame.MAXIMIZED_BOTH);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
